@@ -9,8 +9,7 @@ function App() {
   function greet(name: string): string {
     return `Hello, ${name}`;
   }
-
-  greet(123);
+  greet("Shubham");
   return (
     <>
       <section id="center">
