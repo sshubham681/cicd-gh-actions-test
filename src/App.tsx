@@ -6,7 +6,10 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  function greet(name: string): string {
+    return `Hello, ${name}`;
+  }
+  greet("Shubham");
   return (
     <>
       <section id="center">
